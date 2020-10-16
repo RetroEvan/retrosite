@@ -1,0 +1,104 @@
+/* use commas to separate and target multiple 
+elements at once, kinda like "also, do this" */
+body {
+    background: rgb(45, 53, 45);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-bottom: 0px;
+    text-shadow: none;
+}
+
+header {
+    background-color: black;
+    background-image: url("images/miles.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+header .link a {
+    position: relative;
+    top: 30px;
+}
+
+header .logo a {
+    background-image: url("images/logobanner.png");
+    background-size: 300px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    height: 140px;
+    position: relative;  
+    top: -35px;
+    text-indent: -99999999px;
+    width: 300px;
+}
+
+a {
+    text-decoration: underline solid transparent;
+    transition: text-decoration 1s ease;
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    text-decoration: underline solid currentColor;
+}
+
+section figure {
+    margin: auto;
+    width: 250px;
+    color: rgb(68, 39, 0);
+    position: relative;
+    text-align: center;
+}
+
+section figure img {
+    width: 250px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+section {
+    background: white;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1 {
+    background-color: black;
+    background-image: url("images/legion.png");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding-bottom: 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-indent: 9999px;
+    margin: 0px;
+}
+
+footer {
+    background: black;
+    background-image: url("images/footer.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    background-size: 100%;
+    height: 20px;
+    padding: 10px 20px;
+}
