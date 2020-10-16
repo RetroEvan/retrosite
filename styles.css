@@ -4,8 +4,8 @@ body {
     background: rgb(45, 53, 45);
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 0;
-    padding-bottom: 0px;
+    margin: 0px;
+    padding: 0px;
     text-shadow: none;
 }
 
@@ -88,7 +88,7 @@ h1 {
     padding-bottom: 0px;
     background-repeat: no-repeat;
     text-align: center;
-    text-indent: 9999px;
+    text-indent: -9999px;
     margin: 0px;
 }
 
